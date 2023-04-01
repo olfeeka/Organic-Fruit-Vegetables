@@ -1,0 +1,122 @@
+:root {
+  --padding-horizontal: 100px;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px var(--padding-horizontal);
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav__list {
+  display: flex;
+  gap: 13px;
+  width: 100%;
+}
+.header-nav__list-item {
+  cursor: pointer;
+}
+.header-nav__list-item a:hover {
+  color: #09a66d;
+}
+.utility-nav {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.utility-nav__reg-button {
+  background-color: #09a66d;
+  border-radius: 8px;
+  padding: 10px 23px;
+  a {
+    color: white;
+  }
+}
+.main {
+  background-color: #f3fbf8;
+  padding: 90px 100px 30px 80px;
+  background-image: url(/images/vegetables-fruits-white_55883-892\ 1s.svg);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-position: bottom;
+  background-position-x: inherit;
+}
+.main__header__item {
+  font-family: "Rosario", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.main__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+.main__header__p-container {
+  display: flex;
+  align-items: center;
+}
+.main__header__paragraph {
+  width: 40%;
+  text-align: center;
+  font-size: 18px;
+}
+.main__order {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+.main__order-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+.main__order-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.main__statistic__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+}
+.main__statistic__item {
+  background-color: white;
+  width: 250px;
+  height: 116px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main__statistic__items__number h2 {
+  font-size: 48px;
+  text-align: center;
+}
+.main__statistic__items__number p {
+  font-size: 18px;
+  text-align: center;
+}

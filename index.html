@@ -1,15 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Organic Fruit & Vegetables</title>
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/style.min.css">
-    <link rel="stylesheet" href="styles/reset.css">
-</head>
-<body>
-    
-</body>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/style.min.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rosario:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__list-item"><a href="#">About us</a></li>
+          <li class="header-nav__list-item"><a href="#">Service</a></li>
+          <li class="header-nav__list-item"><a href="#">Menu</a></li>
+          <li class="header-nav__list-item"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="header-logo">
+        <a href="/" aria-label="Home">
+          <img src="./images/planet-earth.svg" alt="Organic food"
+        /></a>
+      </div>
+      <div class="utility-nav">
+        <div class="utility-nav__search-bar">
+          <a class="utility-nav__search-bar__button" href="#">
+            <img src="./images/Search_icon.svg" />
+          </a>
+        </div>
+        <div class="utility-nav__basket">
+          <a class="utility-nav__basket__button" href="#">
+            <img src="./images/trolley.svg" />
+          </a>
+        </div>
+        <div class="utility-nav__reg-button">
+          <a href="#">Register now</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__header">
+        <div>
+          <h1 class="main__header__item">Organic Fruit & Vegetables</h1>
+          <div class="main__header__p-container">
+            <p class="main__header__paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="main__order">
+        <div class="main__order-items">
+          <p class="main__order-p">Order Now</p>
+          <button type="button" class="main__order-button">
+            <img src="./images/arrow button.svg" />
+          </button>
+        </div>
+      </div>
+      <div class="main__statistic">
+        <div class="main__statistic__items">
+          <div class="main__statistic__item user-order">
+            <img class="user-order__img" src="./images/man_icon.svg" />
+            <div class="main__statistic__items__number">
+              <h2>30K</h2>
+              <p>User Order</p>
+            </div>
+          </div>
+          <div class="main__statistic__item reviews">
+            <img class="user-order__img" src="./images/star_icon.svg" />
+            <div class="main__statistic__items__number">
+              <h2>20K</h2>
+              <p>Reviews(4.8)</p>
+            </div>
+          </div>
+          <div class="main__statistic__item items">
+            <img class="user-order__img" src="./images/food_icon.svg" />
+            <div class="main__statistic__items__number">
+              <h2>300</h2>
+              <p>Items</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
