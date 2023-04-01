@@ -42,6 +42,10 @@ header {
   cursor: pointer;
 }
 
+.header-nav__list-item a:hover {
+  color: #09a66d;
+}
+
 .utility-nav {
   display: -webkit-box;
   display: -ms-flexbox;
