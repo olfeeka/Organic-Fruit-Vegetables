@@ -1,0 +1,16 @@
+// здесь прописаны переменные, шаблоны и миксины
+
+
+// миксины
+@mixin title-1 {
+    font-family: "Rosario";
+    font-weight: 700;
+    color: #222222;;
+    font-size: 70px;
+    line-height: 90px;
+}
+@mixin text-1 {
+    color: #555555;
+    font-size: 18px;
+    line-height: 30px;
+}
