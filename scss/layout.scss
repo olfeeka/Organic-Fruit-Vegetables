@@ -1,0 +1,21 @@
+.container {
+    max-width: 1254px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+// оформление для h1,h2
+.title {
+    font-family: "Rosario";
+    font-weight: 700;
+    color: #222222;;
+    font-size: 70px;
+    line-height: 90px;
+}
+// оформление для текса
+.text {
+    color: #555555;
+    font-size: 18px;
+    line-height: 30px;
+}

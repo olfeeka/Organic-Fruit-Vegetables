@@ -1,7 +1,3 @@
-.container {
-  max-width: 1254px;
-  margin: 0 auto; }
-
 .block-4 {
   background-color: #F3FBF8; }
   .block-4__wrapper {
@@ -11,21 +7,9 @@
   .block-4__part-right {
     padding-right: 10px; }
   .block-4__title {
-    font-family: "Rosario";
-    font-weight: 700;
-    color: #222222;
-    font-size: 70px;
-    line-height: 90px;
     padding: 25px 0 40px; }
   .block-4__text {
-    color: #555555;
-    font-size: 18px;
-    line-height: 30px;
     padding-bottom: 40px; }
-  .block-4__link p {
-    color: #555555;
-    font-size: 18px;
-    line-height: 30px; }
   .block-4__link {
     display: flex;
     gap: 20px;
@@ -34,5 +18,24 @@
       font-weight: 500; }
   .block-4__link-arrow {
     cursor: pointer; }
+
+.container {
+  max-width: 1254px;
+  margin: 0 auto; }
+
+img {
+  max-width: 100%; }
+
+.title {
+  font-family: "Rosario";
+  font-weight: 700;
+  color: #222222;
+  font-size: 70px;
+  line-height: 90px; }
+
+.text {
+  color: #555555;
+  font-size: 18px;
+  line-height: 30px; }
 
 /*# sourceMappingURL=style.min.css.map */
