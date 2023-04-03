@@ -10,18 +10,11 @@
         padding-right: 10px;
     }
     &__title {
-        @include title-1;
         padding: 25px 0 40px;
     }
     &__text {
-        @include text-1;
         padding-bottom: 40px;
-    }
-    &__link {
-        p {
-            @include text-1;
-        }
-    }   
+    }  
     &__link {
         display: flex;
         gap: 20px;
