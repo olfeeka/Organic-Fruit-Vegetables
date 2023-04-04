@@ -1,0 +1,12 @@
+.block-6 {
+    display: flex;
+    column-gap: 100px;
+
+    &__picture {
+        padding-left: 150px;
+    }
+
+    &__process {
+        padding-right: 150px;
+    }
+}
