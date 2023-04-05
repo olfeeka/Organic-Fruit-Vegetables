@@ -1,12 +1,17 @@
 .block-6 {
-    display: flex;
-    column-gap: 100px;
-
-    &__picture {
-        padding-left: 150px;
-    }
-
-    &__process {
-        padding-right: 150px;
-    }
+  &__wrap {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    padding-top: 150px;
+  }
+  &__thumb {
+    grid-column: 2/5;
+    height: 90vh;
+    background: url("../assets/images/block-6-img-1.png") 50% no-repeat,
+      url("../assets/images/block-6-img-2.png") 10% 50% no-repeat;
+  }
+  &__process {
+    grid-column: 6/12;
+  }
 }
