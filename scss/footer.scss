@@ -1,0 +1,15 @@
+.footer-wrap {
+    display: flex;
+    align-items: center;
+    column-gap: 143px;
+    padding-top: 106px;
+
+    &__description {
+        padding-right: 14px;
+    }
+
+    &__logo {
+        padding-bottom: 30px;
+    }
+
+}

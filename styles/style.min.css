@@ -1,41 +1,94 @@
 .block-4 {
-  background-color: #F3FBF8; }
-  .block-4__wrapper {
-    display: flex;
-    gap: 50px;
-    padding: 95px 0 143px; }
-  .block-4__part-right {
-    padding-right: 10px; }
-  .block-4__title {
-    padding: 25px 0 40px; }
-  .block-4__text {
-    padding-bottom: 40px; }
-  .block-4__link {
-    display: flex;
-    gap: 20px;
-    align-items: center; }
-    .block-4__link p {
-      font-weight: 500; }
-  .block-4__link-arrow {
-    cursor: pointer; }
+  background-color: #F3FBF8;
+}
+.block-4__wrapper {
+  display: flex;
+  gap: 50px;
+  padding: 95px 0 143px;
+}
+.block-4__part-right {
+  padding-right: 10px;
+}
+.block-4__title {
+  padding: 25px 0 40px;
+}
+.block-4__text {
+  padding-bottom: 40px;
+}
+.block-4__link {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.block-4__link p {
+  font-weight: 500;
+}
+.block-4__link-arrow {
+  cursor: pointer;
+}
 
 .container {
   max-width: 1254px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .title {
   font-family: "Rosario";
   font-weight: 700;
   color: #222222;
   font-size: 70px;
-  line-height: 90px; }
+  line-height: 1.3;
+}
 
 .text {
   color: #555555;
   font-size: 18px;
-  line-height: 30px; }
+  line-height: 1.5;
+}
+
+.block-6 {
+  display: flex;
+  column-gap: 100px;
+}
+.block-6__picture {
+  padding-left: 150px;
+}
+.block-6__process {
+  padding-right: 150px;
+}
+
+.picture {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  position: relative;
+}
+.picture__item_bottom {
+  grid-column: 2/-1;
+  grid-row: 1;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  column-gap: 143px;
+  padding-top: 106px;
+}
+.footer-wrap__description {
+  padding-right: 14px;
+}
+.footer-wrap__logo {
+  padding-bottom: 30px;
+}
+
+.nav__heading {
+  padding-bottom: 40px;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #222222;
+}
 
 /*# sourceMappingURL=style.min.css.map */
