@@ -4,3 +4,6 @@
 https://www.figma.com/file/YasVj3iKyhlHfL5pob9Pbo/organic-food-%2B-(Copy)?t=ziVN0v2mBLHddWVp-0
 
 Создан сайт "Органические фрукты и овощи"
+
+Технологии:
+sass scss/style.scss styles/style.min.css
