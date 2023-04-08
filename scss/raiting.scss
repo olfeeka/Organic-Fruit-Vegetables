@@ -1,11 +1,14 @@
 .raiting {
     position: relative;
-    font-size: 20px;
+    font-size: 28px;
+    line-height: 23px;
     display: inline-block;
-    ::before {
+
+    &::before {
         content: "★★★★★";
         display: block;
     }
+
     &__items {
         position: absolute;
         width: 100%;
@@ -16,6 +19,7 @@
         flex-direction: row-reverse;
         overflow: hidden;
     }
+
     &__item {
         position: absolute;
         width: 0%;
@@ -24,25 +28,29 @@
         left: 0;
         opacity: 0;
         visibility: hidden;
-        :checked,
-        :checked ~ &__label {
-            color: #F1B90B;
-        }
     }
+
+    &__item:checked,
+    &__item:checked~&__item {
+        color: #F1B90B;
+    }
+
     &__label {
         flex: 0 0 20%;
         height: 100%;
         cursor: pointer;
         color: #FFFFFF;
-        ::before {
-            content: "★";
-            display: block;
-            transition: color 0.3s ease 0s;
-            :hover,
-            :hover ~ &__label,
-            :checked ~ &__label:hover {
-                color: #e0cd93;
-            }
-        }
+    }
+
+    &__label::before {
+        content: "★";
+        display: block;
+        transition: color 0.3s ease 0s;
+    }
+
+    &__label:hover,
+    &__label:hover~&__label,
+    &__label:checked~&__label:hover {
+        color: #F1B90B;
     }
 }

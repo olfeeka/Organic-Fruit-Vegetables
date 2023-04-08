@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Organic Fruit & Vegetables</title>
   <link rel="icon" href="assets/images/favicon.ico" />
-  <link rel="stylesheet" href="styles/style.min.css" />
   <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.min.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -108,10 +108,9 @@
               printer...</p>
             <div class="block-4__link">
               <p class="block-4__link-text text">Explor Now</p>
-              <div class="block-4__link-arrow">
+              <a class="block-4__link-arrow" href="#" target="_blank">
                 <img src="./assets/images/arrow button.svg" alt="arrow">
-                <a href="#" target="_blank"></a>
-              </div>
+              </a>
             </div>
             <!-- <div class="block-4__img-2">
               <img src="./assets/images/block-4-img-2.png" alt="">
@@ -153,8 +152,12 @@
                 </form>
               </div>
               <div class="block-5__btns">
-                <button class="block-5__btn-1"></button>
-                <button class="block-5__btn-2"></button>
+                <button class="block-5__btn-1">
+                  <img src="./assets/images/block-5-btn-1.svg" alt="back">
+                </button>
+                <button class="block-5__btn-2">
+                  <img src="./assets/images/block-5-btn-2.svg" alt="forward">
+                </button>
               </div>
             </div>
           </div>
@@ -162,8 +165,8 @@
             <div class="block-5__img">
               <img src="./assets/images/block-5-img-1.jpg" alt="Ahmed Hridoy">
             </div>
-            <div class="block-5__customers">
-              <form action="#" class="block-5__form">
+            <div class="block-5__customers customers">
+              <form action="#" class="customers__form">
                 <div class="customers__raiting raiting">
                   <div class="raiting__items">
                     <input id="customers-raiting-5" type="radio" class="raiting__item" name="raiting" value="5">
@@ -177,16 +180,18 @@
                     <input id="customers-raiting-1" type="radio" class="raiting__item" name="raiting" value="1">
                     <label for="customers-raiting-1" class="raiting__label"></label>
                   </div>
-                  <div class="customers__group">
-                    <img src="./assets/images/block-5-img-2.jpg" alt="Customer">
-                    <img src="./assets/images/block-5-img-3.jpg" alt="Customer">
-                    <img src="./assets/images/block-5-img-4.jpg" alt="Customer">
-                    <img src="./assets/images/block-5-img-5.jpg" alt="Customer">
-                    <img src="./assets/images/block-5-img-6.jpg" alt="Customer">
-                    <button class="customers__btn"></button>
-                  </div>
                 </div>
               </form>
+              <div class="customers__group">
+                <img class="customers__img-1" src="./assets/images/block-5-img-2.jpg" alt="Customer">
+                <img class="customers__img-2" src="./assets/images/block-5-img-3.jpg" alt="Customer">
+                <img class="customers__img-3" src="./assets/images/block-5-img-4.jpg" alt="Customer">
+                <img class="customers__img-4" src="./assets/images/block-5-img-5.jpg" alt="Customer">
+                <img class="customers__img-5" src="./assets/images/block-5-img-6.jpg" alt="Customer">
+                <a class="customers__link" href="#">
+                  <img src="./assets/images/block-5-btn.svg" alt="link">
+                </a>
+              </div>
             </div>
           </div>
         </div>
