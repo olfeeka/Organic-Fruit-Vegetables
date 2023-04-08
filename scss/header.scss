@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 100px 14px 84px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav__list {
+  display: flex;
+  gap: 13px;
+  width: 100%;
+}
+.header-nav__list-item {
+  cursor: pointer;
+}
+.header-nav__list-item a:hover {
+  color: #09a66d;
+}
+.utility-nav {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.utility-nav__reg-button {
+  background-color: #09a66d;
+  border-radius: 8px;
+  padding: 10px 23px;
+  a {
+    color: white;
+  }
+}
