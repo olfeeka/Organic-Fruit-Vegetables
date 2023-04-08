@@ -4,20 +4,18 @@
     align-items: center;
     gap: 113px;
     padding: 150px 100px 140px;
-    @media (max-width: 1199px) {
-      gap: 90px;
+    @media (max-width: 1024px) {
+      gap: 80px;
+      padding: 120px 80px 110px;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 768px) {
+      flex-direction: column;
       gap: 60px;
-      padding: 100px 50px 90px;
+      padding: 90px 50px 40px;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 576px) {
       gap: 30px;
-      padding: 50px 0 40px;
-    }
-  }
-  &__thumb {
-    @media (max-width: 1199px) {
+      padding: 60px 0 20px;
     }
   }
 }

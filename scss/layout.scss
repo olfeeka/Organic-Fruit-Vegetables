@@ -4,10 +4,8 @@ body {
 .container {
   max-width: 1240px;
   margin: 0 auto;
-  @media (max-width: 1024px) {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
+  padding-right: 15px;
+  padding-left: 15px;
 }
 img {
   max-width: 100%;

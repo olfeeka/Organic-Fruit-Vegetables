@@ -1,40 +1,23 @@
 .process {
-  &__form {
+  &__link {
+    display: inline-block;
     padding-bottom: 16px;
-  }
-  &__form-button {
-    width: 170px;
-    height: 40px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    background: #f3fbf8;
-    font-size: 18px;
-    line-height: 1;
-    color: #333333;
-    // @media (max-width: 1199px) {
-    //   width: 130px;
-    //   height: 30px;
-    //   font-size: 16px;
-    // }
   }
   &__title {
     padding-bottom: 20px;
-    // @media (max-width: 1199px) {
-    //   font-size: 3.1rem;
-    // }
-    // @media (max-width: 767px) {
-    //   padding-bottom: 10px;
-    //   font-size: 2.5rem;
-    // }
+    @media (max-width: 768px) {
+      padding-bottom: 15px;
+    }
   }
   &__text {
     padding-right: 40px;
     padding-bottom: 50px;
-    // @media (max-width: 1199px) {
-    //   font-size: 1rem;
-    //   padding-bottom: 35px;
-    // }
+    @media (max-width: 768px) {
+      padding-bottom: 35px;
+    }
+    @media (max-width: 576px) {
+      padding-bottom: 25px;
+    }
   }
   &__apps-link {
     display: inline-block;
