@@ -1,17 +1,23 @@
 .block-6 {
   &__wrap {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    display: flex;
     align-items: center;
-    padding-top: 150px;
+    gap: 113px;
+    padding: 150px 100px 140px;
+    @media (max-width: 1199px) {
+      gap: 90px;
+    }
+    @media (max-width: 991px) {
+      gap: 60px;
+      padding: 100px 50px 90px;
+    }
+    @media (max-width: 767px) {
+      gap: 30px;
+      padding: 50px 0 40px;
+    }
   }
   &__thumb {
-    grid-column: 2/5;
-    height: 90vh;
-    background: url("../assets/images/block-6-img-1.png") 50% no-repeat,
-      url("../assets/images/block-6-img-2.png") 10% 50% no-repeat;
-  }
-  &__process {
-    grid-column: 6/12;
+    @media (max-width: 1199px) {
+    }
   }
 }
