@@ -248,7 +248,7 @@ header {
 
 .block-3__why {
   grid-area: why; }
-  @media (max-width: 768) {
+  @media (max-width: 768px) {
     .block-3__why {
       text-align: center; } }
 
@@ -372,7 +372,8 @@ header {
     z-index: 1; }
     @media (max-width: 768px) {
       .block-4__img-2 {
-        top: 0; } }
+        top: 0;
+        right: 0; } }
     @media (max-width: 320px) {
       .block-4__img-2 {
         display: none; } }
