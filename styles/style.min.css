@@ -326,7 +326,11 @@ header {
 
 .block-3__why {
   grid-area: why;
-  text-align: center;
+}
+@media (max-width: 768) {
+  .block-3__why {
+    text-align: center;
+  }
 }
 
 .block-3__title {
