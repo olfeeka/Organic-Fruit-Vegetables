@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "compile": "sass ./scss/violetta.scss:./styles/style.min.css",
-    "watch": "sass ./scss/violetta.scss:./styles/style.min.css --watch"
+    "compile": "sass ./scss/style.scss:./styles/style.min.css",
+    "watch": "sass ./scss/style.scss:./styles/style.min.css --watch"
   },
   "dependencies": {
     "sass": "^1.60.0"
