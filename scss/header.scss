@@ -6,11 +6,17 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 35px 100px 14px 84px;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 35px 15px 14px 15px;
+  @media (max-width: 1024px) {
+  }
 }
+
 .header-nav {
   display: flex;
   align-items: center;
+  z-index: 2;
 }
 .header-nav__list {
   display: flex;
@@ -35,4 +41,7 @@ header {
   a {
     color: white;
   }
+}
+.utility-nav__reg-button:hover {
+  background-color: #0ee093;
 }
