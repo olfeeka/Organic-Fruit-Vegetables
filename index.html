@@ -25,6 +25,9 @@
   <body>
     <header class="header">
       <div class="header-nav">
+        <a href="#" class="burger__menu">
+          <img src="./assets/images/list.png" />
+        </a>
         <ul class="header-nav__list">
           <li class="header-nav__list-item"><a href="#">About us</a></li>
           <li class="header-nav__list-item"><a href="#">Service</a></li>
@@ -55,64 +58,71 @@
     </header>
 
     <main class="main">
-      <div class="container">
-        <div class="main__container-head-img">
-          <img class="main-image" src="./assets/images/block-4-img-2.png" />
-          <div class="main__header">
-            <div>
-              <h1 class="main__header__item">Organic Fruit & Vegetables</h1>
-              <div class="main__header__p-container">
-                <p class="main__header__paragraph">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley...
-                </p>
+      <div class="main__main">
+        <div class="container">
+          <div class="main__container-head-img">
+            <img class="main-image" src="./assets/images/block-4-img-2.png" />
+            <div class="main__header">
+              <div>
+                <h1 class="main__header__item title">
+                  Organic Fruit & Vegetables
+                </h1>
+                <div class="main__header__p-container">
+                  <p class="main__header__paragraph">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="main__order">
+              <div class="main__order-items">
+                <p class="main__order-p">Order Now</p>
+                <button type="button" class="main__order-button">
+                  <img src="./assets/images/arrow button.svg" />
+                </button>
               </div>
             </div>
           </div>
-          <div class="main__order">
-            <div class="main__order-items">
-              <p class="main__order-p">Order Now</p>
-              <button type="button" class="main__order-button">
-                <img src="./assets/images/arrow button.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="main__statistic">
-          <div class="main__statistic__images">
-            <img
-              src="./assets/images/vegetables-fruits-white_55883-892 1.png"
-              alt="fruits"
-            />
-          </div>
-          <div class="main__statistic__items">
-            <div class="main__statistic__item user-order">
-              <img class="user-order__img" src="./assets/images/man_icon.svg" />
-              <div class="main__statistic__items__number">
-                <h2>30K</h2>
-                <p>User Order</p>
-              </div>
-            </div>
-            <div class="main__statistic__item reviews">
+          <div class="main__statistic">
+            <div class="main__statistic__images">
               <img
-                class="user-order__img"
-                src="./assets/images/star_icon.svg"
+                src="./assets/images/vegetables-fruits-white_55883-892 1.png"
+                alt="fruits"
               />
-              <div class="main__statistic__items__number">
-                <h2>20K</h2>
-                <p>Reviews(4.8)</p>
-              </div>
             </div>
-            <div class="main__statistic__item items">
-              <img
-                class="user-order__img"
-                src="./assets/images/food_icon.svg"
-              />
-              <div class="main__statistic__items__number">
-                <h2>300</h2>
-                <p>Items</p>
+            <div class="main__statistic__items">
+              <div class="main__statistic__item user-order">
+                <img
+                  class="user-order__img"
+                  src="./assets/images/man_icon.svg"
+                />
+                <div class="main__statistic__items__number">
+                  <h2>30K</h2>
+                  <p>User Order</p>
+                </div>
+              </div>
+              <div class="main__statistic__item reviews">
+                <img
+                  class="user-order__img"
+                  src="./assets/images/star_icon.svg"
+                />
+                <div class="main__statistic__items__number">
+                  <h2>20K</h2>
+                  <p>Reviews(4.8)</p>
+                </div>
+              </div>
+              <div class="main__statistic__item items">
+                <img
+                  class="user-order__img"
+                  src="./assets/images/food_icon.svg"
+                />
+                <div class="main__statistic__items__number">
+                  <h2>300</h2>
+                  <p>Items</p>
+                </div>
               </div>
             </div>
           </div>
@@ -121,7 +131,7 @@
       <div class="block-3">
         <div class="container">
           <div class="block-3__container">
-            <div class="block-3__items">
+            <div class="block-3__why">
               <h2 class="block-3__title title">Why We Are The Best?</h2>
               <p class="block-3__text text">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -129,53 +139,53 @@
                 text ever since the 1500s, when an unknown printer took a
                 galley...
               </p>
-
-              <div class="block-3__items-wrapper">
-                <div class="block-3__item">
-                  <img src="./assets/images/delivery_icon.svg" alt="" />
-                  <div class="block-3__item__description">
-                    <h3>Fastest Delivery Service</h3>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
-                    </p>
-                  </div>
-                </div>
-                <div class="block-3__item b3-order">
-                  <img
-                    src="./assets/images/online-order_icon.svg"
-                    alt="online_order"
-                  />
-                  <div class="block-3__item__description">
-                    <h3>Online Order Service</h3>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
-                    </p>
-                  </div>
-                </div>
-                <div class="block-3__item">
-                  <img src="./assets/images/service_icon.svg" alt="service" />
-                  <div class="block-3__item__description">
-                    <h3>24/8 Service</h3>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
-                    </p>
-                  </div>
-                </div>
-                <div class="block-3__arrow">
-                  <a href="#"><img src="./assets/images/Arrow 7.svg" /></a>
+            </div>
+            <div class="block-3__items-wrapper">
+              <div class="block-3__item">
+                <img src="./assets/images/delivery_icon.svg" alt="" />
+                <div class="block-3__item__description">
+                  <h3>Fastest Delivery Service</h3>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
                 </div>
               </div>
+              <div class="block-3__item b3-order">
+                <img
+                  src="./assets/images/online-order_icon.svg"
+                  alt="online_order"
+                />
+                <div class="block-3__item__description">
+                  <h3>Online Order Service</h3>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+              <div class="block-3__item">
+                <img src="./assets/images/service_icon.svg" alt="service" />
+                <div class="block-3__item__description">
+                  <h3>24/8 Service</h3>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+              <div class="block-3__arrow">
+                <a href="#"><img src="./assets/images/Arrow 7.svg" /></a>
+              </div>
             </div>
+
             <div class="block-3__image">
               <img src="./assets/images/delivery guyyy.png" />
             </div>
           </div>
         </div>
       </div>
-      
+
       <div class="block-4">
         <div class="container">
           <div class="block-4__wrapper">
@@ -521,84 +531,11 @@
           </div>
         </div>
       </div>
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__wrap">
-        <div class="footer__description">
-          <img class="footer__description-logo" src="assets/images/footer-logo.png" alt="Organic Fruit & Vegetables">
-          <p class="footer__description-text text">Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-            printer...</p>
-        </div>
-        <div class="footer__nav">
-          <ul class="footer__menu">
-            <li class="footer__menu-item">
-              <h3 class="footer__menu-title">Navigation</h3>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">About Us</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">Service</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">Menu</a>
-            </li>
-          </ul>
-          <ul class="footer__menu">
-            <li class="footer__menu-item">
-              <h3 class="footer__menu-title">Resources</h3>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">Reviews</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">Blog</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">Update News</a>
-            </li>
-          </ul>
-          <ul class="footer__menu menu-social">
-            <li class="footer__menu-item">
-              <h3 class="footer__menu-title">Contact Us</h3>
-            </li>
-            <li class="footer__menu-item">
-              <a href="mailto:oyasim@email.com" class="footer__menu-link">oyasim@email.com</a>
-            </li>
-            <li class="footer__menu-item">
-              <ul class="footer__social">
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-facebook"
-                      aria-hidden="true"></i></a>
-                </li>
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-twitter"
-                      aria-hidden="true"></i></a>
-                </li>
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-facebook"
-                      aria-hidden="true"></i></a>
-                </li>
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-twitter"
-                      aria-hidden="true"></i></a>
-                </li>
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-instagram"
-                      aria-hidden="true"></i></a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://kit.fontawesome.com/77f105a234.js" crossorigin="anonymous"></script>
-</body>
+    </footer>
 
+    <script
+      src="https://kit.fontawesome.com/77f105a234.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-
