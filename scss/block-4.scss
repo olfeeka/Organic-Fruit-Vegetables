@@ -34,6 +34,7 @@
     &__part-right {
         padding-right: 10px;
         width: 51%;
+        position: relative;
 
         @media (max-width: 1024px) {
             width: 47%;
@@ -46,6 +47,8 @@
 
     &__title {
         padding: 25px 0 40px;
+        position: relative;
+        z-index: 2;
 
         @media (max-width: 1024px) {
             padding-top: 20px;
@@ -55,6 +58,8 @@
 
     &__text {
         padding-bottom: 40px;
+        position: relative;
+        z-index: 2;
 
         @media (max-width: 1024px) {
             padding-bottom: 30px;
@@ -65,6 +70,8 @@
         display: flex;
         gap: 20px;
         align-items: center;
+        position: relative;
+        z-index: 2;
 
         p {
             font-weight: 500;
@@ -73,6 +80,21 @@
 
     &__link-arrow {
         cursor: pointer;
+    }
+
+    &__img-2 {
+        position: absolute;
+        top: 320px;
+        right: -54px;
+        z-index: 1;
+
+        @media (max-width: 768px) {
+            top: 0;
+        }
+
+        @media (max-width: 320px) {
+            display: none;
+        }
     }
 
 }
