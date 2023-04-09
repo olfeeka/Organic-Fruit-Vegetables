@@ -319,7 +319,9 @@ header {
     @media (max-width: 768px) {
       .block-4__wrapper {
         flex-direction: column;
-        align-items: center; } }
+        align-items: center;
+        gap: 100px;
+        padding: 95px 0 95px; } }
   .block-4__part-left {
     width: 49%;
     align-self: center; }
@@ -339,7 +341,11 @@ header {
         width: 47%; } }
     @media (max-width: 768px) {
       .block-4__part-right {
-        width: 100%; } }
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; } }
   .block-4__title {
     padding: 25px 0 40px;
     position: relative;
@@ -394,7 +400,8 @@ header {
   width: 53%; }
   @media (max-width: 768px) {
     .block-5__part-left {
-      width: 100%; } }
+      width: 100%;
+      text-align: center; } }
 .block-5__title {
   padding-bottom: 30px; }
 .block-5__text {
