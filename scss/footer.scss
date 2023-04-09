@@ -11,7 +11,7 @@
     display: flex;
   }
   &__description {
-    width: 30%;
+    max-width: 345px;
     @media (max-width: 1024px) {
       display: none;
     }
@@ -22,8 +22,7 @@
   &__nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 70%;
+    align-items: stretch;
     padding-top: 40px;
     @media (max-width: 1024px) {
       width: 100%;
@@ -78,16 +77,9 @@
   }
   &__social {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    @media (max-width: 768px) {
-      justify-content: space-around;
-    }
+    justify-content: center;
   }
-}
-.menu-social {
-  align-self: flex-start;
-  @media (max-width: 768px) {
-    align-self: center;
+  &__social-item {
+    padding-right: 50px;
   }
 }
