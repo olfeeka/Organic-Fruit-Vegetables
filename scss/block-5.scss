@@ -20,6 +20,7 @@
 
         @media (max-width: 768px) {
             width: 100%;
+            text-align: center;
         }
     }
 
@@ -29,6 +30,10 @@
 
     &__text {
         padding-bottom: 40px;
+    }
+
+    &__form {
+        text-align: start;
     }
 
     &__customer {
@@ -65,13 +70,25 @@
         width: 56px;
     }
 
+    &__btn-1:hover {
+        background-color: #0ee093;
+    }
+
     &__btn-2 {
-        background-color: #09A66D;
-        border: 1px solid #09A66D;
+        background-color: inherit;
+        border: 1px solid #CCCCCC;
         border-radius: 50%;
         cursor: pointer;
         height: 56px;
         width: 56px;
+
+        img {
+            transform: scale(-1, 1);
+        }
+    }
+
+    &__btn-2:hover {
+        background-color: #0ee093;
     }
 
     &__part-right {
@@ -104,8 +121,8 @@
     }
 
     &__customers {
-        @media (max-width: 320px) {
-            top: 230px;
+        @media (max-width: 768px) {
+            top: 80%;
             left: -4px;
         }
     }
